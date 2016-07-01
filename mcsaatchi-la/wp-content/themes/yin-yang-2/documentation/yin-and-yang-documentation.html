@@ -1,0 +1,948 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Template Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+		
+		.docs-sections:before {
+		  display: block;
+		  content: " ";
+		  margin-top: -25px;
+		  height: 25px;
+		  visibility: hidden;
+		}
+	</style>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.scrollTo-1.4.2-min.js"></script>
+	<script>
+		$(document).ready(function() { 
+			$('.top').click(function(e) {
+				e.preventDefault();
+				$.scrollTo(0, 300);
+			});
+			
+			$('#installationLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#installation', 300);
+			});
+			
+			$('#homepageSetupLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#homepageSetup', 300);
+			});
+			
+			$('#blogSetupLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#blogSetup', 300);
+			});
+			
+			$('#portfolioSetupLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#portfolioSetup', 550);
+			});
+			
+			$('#customMenusLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#customMenus', 600);
+			});
+			
+			$('#themeOptionsLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#themeOptions', 350);
+			});
+			
+			$('#customWidgetsLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#customWidgets', 650);
+			});
+			
+			$('#shortcodesLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#shortcodes', 700);
+			});
+			
+			$('#htmlStructureLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#htmlStructure', 800);
+			});
+			
+			$('#cssFilesLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#cssFiles', 800);
+			});
+			
+			$('#javascriptLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#javascript', 800);
+			});
+			
+			$('#psdFilesLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#psdFiles', 800);
+			});
+			
+			$('#permissionsLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#permissions', 800);
+			});
+			
+			$('#translationLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#translation', 800);
+			});
+			
+			$('#creditsLink').click(function(e) {
+				e.preventDefault();
+				$.scrollTo('#credits', 800);
+			});
+		});
+	</script>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<h3 class="center alt">&ldquo;Yin &amp; Yang&rdquo; Documentation by &ldquo;onioneye&rdquo; v1.1</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Yin &amp; Yang&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 12/11/2011<br>
+					By: onioneye<br>
+					<a href="http://themeforest.net/item/yin-yang-clear-and-slick-wp-portfolio-theme/634395">Theme Link</a> 
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email me via my user page contact form <a href="http://themeforest.net/user/onioneye">here</a>. Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a id="installationLink" href="#installation">Installation</a></li>
+			<li><a id="homepageSetupLink" href="#homepageSetup">Setting up the homepage</a></li>
+			<li><a id="blogSetupLink" href="#blogSetup">Setting up the blog</a></li>
+			<li><a id="portfolioSetupLink" href="#portfolioSetup">Adding portfolio items</a></li>
+			<li><a id="customMenusLink" href="#customMenus">Custom Menus</a></li>
+			<li><a id="themeOptionsLink" href="#themeOptions">Theme Options</a></li>
+			<li><a id="customWidgetsLink" href="#customWidgets">Custom Widgets</a></li>
+			<li><a id="shortcodesLink" href="#shortcodes">Shortcodes</a></li>
+			<li><a id="htmlStructureLink" href="#htmlStructure">HTML Structure</a></li>
+			<li><a id="cssFilesLink" href="#cssFiles">CSS Files and Structure</a></li>
+			<li><a id="javascriptLink" href="#javascript">JavaScript</a></li>
+			<li><a id="psdFilesLink" href="#psdFiles">PSD Files</a></li>
+			<li><a id="permissionsLink" href="#permissions">Troubleshooting</a></li>
+			<li><a id="translationLink" href="#translation">Translation</a></li>
+			<li><a id="creditsLink" href="#credits">Sources and Credits</a></li>
+		</ol>
+		<hr>
+		
+		
+		
+		
+		<h3 id="installation" class="docs-sections"><strong>A) Installation</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>To install the Yin &amp; Yang theme, you first need to upload the theme files and then activate the theme itself. The theme files can be uploaded in two ways:</p>
+		
+		<ul>
+			<li><strong>FTP Upload</strong>: Unzip the yin_and_yang folder, found in the folder you downloaded from ThemeForest, when you bought the theme. After you are done with that,
+				upload the unzipped folder using your FTP program, such as the popular <a href="http://filezilla-project.org/" title="download Filezilla">FileZilla</a>,
+				into the /wp-content/themes/ folder on your server. Once the theme is uploaded, you need to activate it. Navigate to Appearance &raquo; Themes to do that.</li>
+				
+			<li><strong>WordPress Upload</strong>: Navigate to Appearance &raquo; Themes &raquo; Upload. Once there, select the zipped theme folder (yin_and_yang.zip), hit "Install Now" and 
+				wait for the theme to be uploaded and installed. Once
+				all that is done, click "activate" to activate the theme.</li>
+		</ul>
+		
+		<p>If you need help installing WordPress, follow this link:
+		<a href="http://codex.wordpress.org/Installing_WordPress" title="find out how to install WordPress">http://codex.wordpress.org/Installing_WordPress</a>
+		</p>
+		
+		<hr />
+		
+		
+		
+		
+		<h3 id="homepageSetup" class="docs-sections"><strong>B) Setting up the homepage</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>
+			In order to set up your homepage, you first need to make a new page, by navigating to the Pages &raquo; Add New tab. Once there, assign a title to the page, while not including any content
+			in the content editor. Select the "Home" template in the "Page Attributes" settings box, and click "Publish". 
+		</p> 
+		
+		<p>
+			Once you have made your homepage, navigate to the Settings &raquo; Reading tab, where you will find an option called "Front page displays". Select the static page sub-option and choose the page you
+			just created as your front page. 
+		</p>
+		
+		<p>Your homepage is now created and can be viewed by visiting the page you just published. You can also further configure it by going to the options panel, which is found under the Appearance &raquo; Theme Options tab.
+		</p>
+		
+		<hr />
+		
+		
+		
+		
+		<h3 id="blogSetup" class="docs-sections"><strong>C) Setting up the blog</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>
+			If you wish to have a blog page, navigate to the Pages &raquo; Add New tab in your WordPress admin panel. Once there, assign a title to the page, while not including any content
+			in the content editor. After you are done with that, click "Publish".
+		</p> 
+		
+		<p>
+			Once you have made your blog page, navigate to the Settings &raquo; Reading tab, where you will find an option called "Front page displays". Select the static page sub-option, if it's not selected already,
+			and choose the page you just created as your posts page. 
+		</p>
+		
+		<p>Your blog page is now created and can be viewed by visiting the page you just published. You can also further configure your blog by going to the options panel, which is found under the Appearance &raquo; Theme Options tab.
+		</p>
+		
+		<hr />
+		
+		
+		
+		
+		<!-- START #portfolioSetup -->
+		<h3 id="portfolioSetup" class="docs-sections"><strong>D) Adding Portfolio Items</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>
+			To properly create a portfolio item, you first need to create a new category for the item, by navigating to the Portfolio &raquo; Categories tab in your WordPress admin menu. Please 
+			do remember that you can assign as many categories as you want to the item, but it needs
+			to have at least one category, or it will not be filtered properly. 
+		</p>
+
+		<p>			
+			To add a new portfolio item, navigate to the Portfolio &raquo; Add New tab. Here you can add a brief description of the item in the content editor, 
+			assign categories to the item in the "Categories" post option box, upload images, embed videos, and add additional information, such as 
+			the name of the client and the URL of the project.
+		</p>
+		
+		<h4>Adding images</h4>
+		
+		<p>
+			All of the images can be set in the "Image Settings" box.
+			Each item requires a preview image, and at least one, and a maximum of ten additional images, to work properly. The ten additional images
+			are displayed in the slider, when a portfolio item is active/opened.
+		</p>
+		
+		<p>
+			To upload your images, you will need to click the "Browse" buttons, and choose "Use This Image", to set the selected/uploaded image.
+			You can always remove the selected images by clearing the fields where their
+			links are embedded, or by clicking the browse button and replacing the image with another one.
+		</p>
+		
+		<p><strong>Things to look out for, when adding the images</strong></p>
+		
+		<p>
+			The dimensions of the preview image need to be at least 220 x 175. If the image is larger, it will be resized to fit the mentioned dimensions. The rest of the
+			portfolio images should be at least 700 pixels wide, with any height.
+		</p>
+		
+		<p>
+			When you are setting the images, you need to make sure that the "File URL" button is selected.
+			
+			<em>Hint:</em> you only need to click the mentioned button once, and it will be active for all other images.
+		</p>
+		
+		<p>Screenshot of the "File URL" button: </p>
+		
+		<p><img src="assets/images/file-url-button.png" alt="The File URL Button" /></p>
+				
+		<h4>Adding a video</h4>
+		
+		<p>To add a video, follow the steps above for adding a preview image, because every item requires one. To add the video itself, simply copy and paste the provided embed code in the "Video Settings" box.
+		   You can add videos from sites such as YouTube, Vimeo, and other sites as well. The best dimensions for the video are 700px x unlimited.
+		</p>
+
+		<p>To find out what sites you can embed from, visit the following link: 
+		   <a href="http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F">http://codex.wordpress.org/Embeds#Okay.2C_So_What_Sites_Can_I_Embed_From.3F</a>
+		</p>
+		
+		<hr>
+		<!-- END #portfolioSetup -->
+		
+		
+	
+						
+		<!-- START #customMenus -->
+		<h3 id="customMenus" class="docs-sections"><strong>E) Custom Menus</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>
+			WordPress&rsquo;s Navigation Menus feature allows you to create a navigation menu of pages, categories, custom links, tags, etc. 
+			that is presented to your visitors. Below is a link to WordPressʼs documentation on their navigation menus feature:
+			<a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">http://codex.wordpress.org/Appearance_Menus_SubPanel</a>.
+		</p>
+		
+		<p>
+		This theme supports one menu, found in the top-left corner of your website, which serves as the site's main navigation. Another thing to keep in mind is that the menu supports two levels of 
+		hierarchy, meaning that you can have top-level navigation links and one level of drop-down links, within the top-level links.
+		</p>
+		
+		<p>
+		   If you need any further info on the navigation menus feature, please visit the link provided above.  
+		</p>
+			
+		<hr>
+		<!-- END #customMenus -->
+		
+		
+		
+		
+		<!-- START #themeOptions -->
+		<h3 id="themeOptions" class="docs-sections"><strong>F) Theme Options</strong> - <a class="top" href="#toc">top</a></h3>
+				
+		<p>Your theme comes with a theme options panel, which is packed with a lot of useful options, that let you easily customize the theme, 
+		   without having to manually change anything in the source files. The options panel is found under the Appearance &raquo; 
+		   Theme Options tab of your WordPress admin panel menu.
+		</p>
+
+		<hr>
+		<!-- END #themeOptions -->
+
+		
+		
+		
+		<!-- START #customWidgets -->
+		<h3 id="customWidgets" class="docs-sections"><strong>G) Custom Widgets</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>Your theme contains six widget areas. Each of the areas of the theme, where the widget areas are displayed, can be disabled in the theme options panel.</p>
+		
+		<ol>
+			<li><strong>Sidebar Blog</strong>&mdash;The widget area that appears in the sidebar of the blog page and individual blog posts.</li>
+			<li><strong>Sidebar Pages</strong>&mdash;The widget area that appears in the sidebar of WordPress pages.</li>
+			<li><strong>Bottom 1</strong>&mdash;The leftmost widget area in the theme's bottom overlay.</li>
+			<li><strong>Bottom 2</strong>&mdash;Right next to the leftmost widget area in the theme's bottom overlay.</li>
+			<li><strong>Bottom 3</strong>&mdash;Right next to the rightmost widget area in the theme's bottom overlay.</li>
+			<li><strong>Bottom 4</strong>&mdash;The rightmost widget area in the theme's bottom overlay.</li>
+		</ol>
+		
+		<p>Your theme comes with four custom widgets:</p>
+	
+		<ol>
+			<li><strong>Popular Posts</strong>&mdash;Displays your blog&rsquo;s most popular posts.</li>
+			<li><strong>Wickett Twitter Widget</strong>&mdash;Displays your most recent tweets.</li>
+			<li><strong>Simple Flickr Photos</strong>&mdash;Pulls in images from your Flickr feed.</li>
+			<li><strong>Text Widget</strong>&mdash;comes bundled with WordPress. 
+				It is customized so you can easily embed videos, shortcodes, images, and other content into your WordPress site, 
+				without the need for a separate widget/plugin.
+			</li>
+		</ol>
+				
+		</p>
+			To install any of the first three widgets, navigate to Plugins &raquo; Add New &raquo; Upload, to upload the zip folder containing the widget's files, which is
+			located within the zip package downloaded from ThemeForest (look for the custom-widgets folder). Once you have done that, activate the widget, and navigate to the
+			Appearance &raquo; Widgets tab. Once there, simply drag your custom widget to a widget 
+			area and enter the appropriate settings for it.
+		</p>
+		
+		<p>The last widget (the text widget) is already built into the theme by default in WordPress, so you can use it simply by dragging it into
+		   one of the widget areas. All you need to do to embed something is to post the URL to it into the content area of the widget. 
+		   Make sure that the URL is on its own line and not hyperlinked (clickable when viewing the post). For example: 
+		</p>
+
+<pre>
+Check out this cool video:
+
+http://www.youtube.com/watch?v=nTDNLUzjkpg
+
+That was a cool video.
+</pre>
+
+		<p>
+		WordPress will automatically turn that into a YouTube embed when the post is viewed. (Check the &ldquo;Auto-embeds&rdquo; check box 
+		in Administration > Settings > Media SubPanel.). You can also opt to wrap the URL in the [embed] shortcode. 
+		It will accomplish the same effect, but does not require the URL to be on its own line and the &ldquo;Auto-embeds&rdquo; setting to be enabled. 
+		It also allows you to set a maximum (but not fixed) width and height, like so: [embed width="123" height="456"]...[/embed]
+		</p>
+		<hr>
+		<!-- END #customWidgets -->
+	
+		
+		
+		
+		<!-- START #shortcodes -->
+		<h3 id="shortcodes" class="docs-sections"><strong>H) Shortcodes</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>This theme comes with 22 column shortcodes:</p>
+		
+		<ol>
+			<li>one_third</li>
+			<li>one_third_last</li>
+			<li>two_third</li>
+			<li>two_third_last</li>
+			<li>one_half</li>
+			<li>one_half_last</li>
+			<li>one_fourth</li>
+			<li>one_fourth_last</li>
+			<li>three_fourth</li>
+			<li>three_fourth_last</li>
+			<li>one_fifth</li>
+			<li>one_fifth_last</li>
+			<li>two_fifth</li>
+			<li>two_fifth_last</li>
+			<li>three_fifth</li>
+			<li>three_fifth_last</li>
+			<li>four_fifth</li>
+			<li>four_fifth_last</li>
+			<li>one_sixth</li>
+			<li>one_sixth_last</li>
+			<li>five_sixth</li>
+			<li>five_sixth_last</li>
+		</ol>
+		
+		<p>
+			You can combine these column shortcodes to make up rows of columns that will fill up the whole width of the box, which 
+			contains these columns.
+		</p>
+		
+		<p>	
+			For example, you can combine the following shortcodes that will, when their values in their names are added up, 
+			make up a fractional number that should always be equal to one: three_fifth (3/5) + one_fifth (1/5) + one_fifth_last (1/5) = 5/5 = 1. 
+			It&rsquo;s important to remember that the last column in the row has to have a suffix of &ldquo;_last&rdquo; or it will fall onto the next row,
+			making it display improperly.
+		</p>
+		   
+		<p>The widths of the columns are defined as percentages, making them highly flexible, so you can use them anywhere, no matter
+		   what the width of the box, into which you are putting your column shortcodes, is.
+		</p>
+		
+		<p>Here&rsquo;s a few snippets depicting the use of the column shortcodes.</p>
+		
+		<h4>Two column layout:</h4>
+<pre> 
+[one_half]
+	Your content goes here.....
+[/one_half]
+[one_half_last]
+	Your content goes here.....
+[/one_half_last]
+</pre>
+
+<h4>Three column layout:</h4>
+<pre> 
+[one_third]
+	Your content goes here.....
+[/one_third]
+[one_third]
+	Your content goes here.....
+[/one_third]
+[one_third_last]
+	Your content goes here.....
+[/one_third_last]
+</pre>
+
+<h4>Four column layout:</h4>
+<pre> 
+[one_fourth]
+	Your content goes here.....
+[/one_fourth]
+[one_fourth]
+	Your content goes here.....
+[/one_fourth]
+[one_fourth]
+	Your content goes here.....
+[/one_fourth]
+[one_fourth_last]
+	Your content goes here.....
+[/one_fourth_last]
+</pre>
+
+		<p>Your theme also comes with three additional shortcodes: the contact form shortcode, google maps shortcode, and the contact 
+		   info shortcode. Below are the instructions on how to use each one of these.
+		</p>
+		
+		<p><strong>Note:</strong> attributes marked as mandatory must be included in the shortcode, or else the shortcode will not work properly.</p>
+		
+		<h4>Contact Form Shortcode</h4>
+		
+		<p>Available attributes and their default values:</p>
+		
+		<ul>
+			<li><strong>email</strong> (mandatory): 
+				<br />
+				Description: your email address.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>subject</strong> (optional): 
+				<br />
+				Description: the subject of the emails sent through the contact form.
+				<br /> 
+			    Default value: Contact Form Email.
+			</li>
+			
+			<li><strong>on_success</strong> (optional): 
+				<br />
+				Description: The message that appears on the screen, when the email is sent.
+				<br /> 
+			    Default value: Thank you for your message. You will get an answer as soon as possible.
+			</li>
+			
+			<li><strong>on_failure</strong> (optional): 
+				<br />
+				Description: A message that appears on the screen, when the email couldn't be sent for some reason (possibly an issue with the server).
+				<br /> 
+			    Default value: There has been a mistake while sending the message. Please try again.
+			</li>
+			
+			<li><strong>invalid_email</strong> (optional): 
+				<br />
+				Description: A message that appears on the screen, when the user has entered an invalid email address.
+				<br /> 
+			    Default value: Please enter a valid email address (youremail@yourdomain.com).
+			</li>
+			
+			<li><strong>incomplete</strong> (optional): 
+				<br />
+				Description: A message that appears on the screen, when the user didn't fill out all of the required fields.
+				<br /> 
+			    Default value: Please populate all of the fields, and then send your message.
+			</li>
+		</ul>
+
+An example of a contact form shortcode:<pre>[contact_form email="zlatan@onioneye.com"]
+</pre>
+
+
+<h4>Contact Info Shortcode</h4>
+		
+		<p>Available attributes and their default values:</p>
+		
+		<ul>
+			<li><strong>name</strong> (optional): 
+				<br />
+				Description: your name.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>address</strong> (optional): 
+				<br />
+				Description: your address.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>city</strong> (optional): 
+				<br />
+				Description: your city.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>state</strong> (optional): 
+				<br />
+				Description: your state.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>zip</strong> (optional): 
+				<br />
+				Description: your ZIP code.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>phone</strong> (optional): 
+				<br />
+				Description: your phone number.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>email</strong> (optional): 
+				<br />
+				Description: your email address.
+				<br /> 
+			    Default value: empty.
+			</li>
+		</ul>
+
+An example of a contact info shortcode: <pre>[contact_info name="Zlatan Halilovic" address="ul.Mahmuta Busatlije br.4" city="Tuzla" state="BiH" 
+phone="(555) 216-4404" zip="75 000" email="zlatan@onioneye.com"]
+</pre>
+
+
+
+<h4>Google Maps Shortcode</h4>
+		
+		<p>Available attributes and their default values:</p>
+		
+		<ul>
+			<li><strong>width</strong> (mandatory): 
+				<br />
+				Name: The width of the google maps window, measured in pixels. Widths up to 680 pixels are highly recommended.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>height</strong> (mandatory): 
+				<br />
+				Description: The height of the google maps window, measured in pixels.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>latitude</strong> (optional): 
+				<br />
+				Description: point on which the viewport will be centered.
+				<br /> 
+			    Default value: 0.
+			</li>
+			
+			<li><strong>longitude</strong> (optional): 
+				<br />
+				Description: point on which the viewport will be centered.
+				<br /> 
+			    Default value: 0.
+			</li>
+			
+			<li><strong>address</strong> (optional): 
+				<br />
+				Description: address on which the viewport will be centered. If you include the address to center the viewport, don't 
+				include the latitude and longitude attributes as well, because the shortcode will not work. The same goes for marker_address and
+				its latitude and longitude counterparts.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>zoom</strong> (optional): 
+				<br />
+				Description: zoom value from 1 to 19 where 19 is the greatest and 1 the smallest..
+				<br /> 
+			    Default value: 10.
+			</li>
+			
+			<li><strong>marker_address</strong> (optional): 
+				<br />
+				Description: address where the marker will be drawn.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>marker_latitude</strong> (optional): 
+				<br />
+				Description: point on the map where the marker will be drawn.
+				<br /> 
+			    Default value: 0.
+			</li>
+			
+			<li><strong>marker_longitude</strong> (optional): 
+				<br />
+				Description: point on the map where the marker will be drawn.
+				<br /> 
+			    Default value: 0.
+			</li>
+			
+			<li><strong>marker_title</strong> (optional): 
+				<br />
+				Description: text displayed over marker on hover. 
+				You can set the value to <strong>_address</strong> or <strong>_latlng</strong> to display the respective values of the current marker.
+				<br /> 
+			    Default value: empty.
+			</li>
+			
+			<li><strong>marker_popup</strong> (optional): 
+				<br />
+				Description: if you set the value of this option to true the info window for this marker will be shown when the map finished loading. 
+				If "marker_html" is empty this option will be ignored.
+				<br /> 
+			    Default value: false.
+			</li>
+			
+			<li><strong>marker_html</strong> (optional): 
+				<br />
+				Description: content that will be shown within the info window for this marker. If empty no info window will be shown when the user clicks the marker.
+				You can set the value to <strong>_address</strong> or <strong>_latlng</strong> to display the respective values of the current marker.
+				<br /> 
+			    Default value: empty.
+			</li>
+		</ul>
+
+Examples:
+
+<pre>[gmap width="400" height="200" zoom="18" address="Kraków, Poland"]</pre>
+
+<pre>[gmap width="680" height="300" zoom="11" marker_address="San Francisco, California"]</pre>
+
+<pre>[gmap width="680" height="300" zoom="13" marker_latitude="37.7914434" 
+thmarker_longitude="-122.389913" marker_title="_latlng"]</pre>
+
+		<hr>
+		<!-- END #shortcodes -->
+		
+
+
+
+		<!-- START #htmlStructure -->
+		<h3 id="htmlStructure" class="docs-sections"><strong>I) HTML Structure</strong> - <a class="top" href="#toc">top</a></h3>
+		<p>
+		   This theme has a fixed layout and relies on the <a href="http://960.gs/">960gs framework</a> to layout the 
+		   columns throughout the site.
+		</p>
+		<hr>
+		<!-- END #htmlStructure -->
+
+
+
+
+		<!-- START #cssFiles -->
+		<h3 id="cssFiles" class="docs-sections"><strong>J) CSS Files and Structure</strong> - <a class="top" href="#toc">top</a></h3>
+
+		<p>Three CSS files are used in this theme:</p>
+		   
+		<ol>
+			<li><strong>style.css</strong>&mdash;a generic, static file, which is 
+		   		separated into sections and which contains the most important styles of the theme.
+		   	</li>
+			<li><strong>custom.php</strong>&mdash;a dynamic file that contains custom-defined CSS, and which gets updated any time you change 
+		   		something in the options panel, under the "Styling Options" tab.</li>
+		   	<li><strong>print.css</strong>&mdash;contains the CSS, which is used when the site is printed out.
+		  	</li>
+		</ol>
+	
+		<hr>
+		<!-- END #cssFiles -->
+		
+		
+		
+		
+		<!-- START #javascript -->
+		<h3 id="javascript" class="docs-sections"><strong>K) JavaScript</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>This theme imports the following JavaScript files:</p>
+		
+		<ol>
+			<li>jQuery</li>
+			<li>modernizr.custom</li>
+			<li>IE9.js</li>
+			<li>jquery.quicksand</li>
+			<li>jquery.quicksand.init</li>
+			<li>slides.min.jquery</li>
+			<li>jquery.ajax.contact.form</li>
+			<li>jquery.easing.1.3</li>
+			<li>jquery.hoverintent.min</li>
+			<li>jquery.gmap.min</li>
+			<li>jquery.lavalamp-1.3.5.min</li>
+			<li>superfish</li>
+			<li>jquery.scrollTo-1.4.2-min</li>
+			<li>jquery.header.custom</li>
+			<li>jquery.footer.custom</li>
+		</ol>
+		  
+		<ul>
+			<li>jQuery is a JavaScript library that greatly reduces the amount of code that you must write.</li>
+			
+			<li>Modernizr is a JavaScript library that allows you to use CSS3 and HTML5 features while maintaining a fine level of control over browsers that do not support them yet.</li>
+			
+			<li>IE9.js is a JavaScript library to make Microsoft Internet Explorer behave like a standards-compliant browser. 
+				It fixes many HTML and CSS issues in IE (version 8 and below).</li>
+			
+			<li>The theme contains a few &ldquo;tried and true&rdquo; plugins to create the hover, scroll, drop-down, filter, lavalamp, and the slider effects. 
+			</li> 
+		</ul>
+		<hr>
+		<!-- END #javascript -->
+		
+		
+		
+		
+		<!-- START #psdFiles -->
+		<h3 id="psdFiles" class="docs-sections"><strong>L) PSD Files</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>Eight psds are included with this theme. All of them can be found inside the &ldquo;psd&rdquo; folder, which is contained in 
+		   the folder you downloaded from ThemeForest. The following are the names of the psd files and their
+		   short descriptions:</p>
+		
+			<ol>
+				<li><strong>twitter-feed-icon.psd</strong>&mdash;contains the twitter icon that is displayed in the twitter widget
+					provided by this theme.
+				</li>
+				<li><strong>sociables.psd</strong>&mdash;contains the social networking icons, displayed in the footer of the theme.
+				</li>
+				<li><strong>portfolio-navigation-icons.psd</strong>&mdash;contains the icons that are displayed when the portfolio item is opened.
+				</li>
+				<li><strong>current-item-image.psd</strong>&mdash;contains the image that is displayed in the overlay of the active project's preview image.
+				</li>
+				<li><strong>pagination.psd</strong>&mdash;contains the icons that represent the slider&rsquo;s pagination.
+				</li>
+				<li><strong>contact-info-icons.psd</strong>&mdash;contains the contact info icons that are displayed when the contact info
+					shortcode is used.
+				</li>
+				<li><strong>contact-form-icons.psd</strong>&mdash;contains the contact form icons that are displayed when the contact form is
+					submitted.
+				</li>
+				<li><strong>not-found.psd</strong>&mdash;contains the image that is displayed on the 404 WordPress page, when the user goes to a non-existent page in the site.
+				</li>
+				<li><strong>home-icons.psd</strong>&mdash;contains the icons that are displayed in the headings of "portfolio" and "clients" sections.
+				</li>
+			</ol>
+				
+		<hr>
+		<!-- END #psdFiles -->
+		
+		
+		
+		
+		
+		<!-- START #permissions -->
+		<h3 id="permissions" class="docs-sections"><strong>M) Troubleshooting</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>Your theme comes with a built-in image resizing script called &ldquo;TimThumb&rdquo;. This script handles the automatic resizing of images 
+		   throughout your theme. If you&rsquo;re are having trouble with the script, for instance, if images you have 
+		   defined for your portfolio gallery aren&rsquo;t loading, go through the following troubleshooting tips:
+		</p>
+		
+		<p>1). <strong>Does your cache folder have the correct permissions?</strong></p>
+
+		<p>You need to give your: /wp-content/themes/yin_and_yang/cache/ folder full permissions. In most cases this is &ldquo;777&rdquo;, but it may 
+		vary depending on where you are hosted. If 777 does not work, try 755. It is recommended that you contact your host, to 
+		find out what 
+		permissions to use, if you are not sure. Setting permissions is also known as CHMODing, and can be done using most FTP programs
+	    and hosting control panels.
+	    </p>
+
+		<p>2). <strong>Does the file &ldquo;timthumb.php&rdquo; have the correct permissions?</strong></p>
+
+		<p>Make sure the following file has the correct permissions needed for your server:
+		/wp-content/themes/yin_and_yang/timthumb.php. In most cases this is &ldquo;644&rdquo;, but it may vary depending on where you are hosted. If 644 does not work, try 755 or 777. 
+		</p>
+
+		<p>3). <strong>Does your server has the GD library compiled with its version of PHP?</strong></p>
+
+		<p>This script requires the GD library to be installed. If your thumbnails are not working, check with your host to make sure 
+		   that you have it.
+		</p>
+
+		<p>4). <strong>Does your server has mod_security settings that are impeding the scripts functionality?</strong></p>
+
+		<p>Some servers may have mod_security settings that will stop the script from working. You should always contact your host to 
+		   make sure your server is not holding the script from working.
+		</p>
+		
+		<h4>permissions of a dynamic file that contains your theme&rsquo;s CSS</h4>
+		
+		<p>Your theme comes with a file, which is updated whenever you change something in the theme options 
+		   panel, that is related to the CSS of the theme. 
+		   If you do not see any changes to the theme when you update something under the &ldquo;Styling Options&rdquo; tab, in the options panel, 
+		   check if the following file has the correct permissions:
+		</p>
+		
+		<ul>
+			<li><strong>custom.php</strong> (<em>/wp-content/themes/yin_and_yang/styles/</em> folder)</li>
+		</ul>
+		
+		<p>You need to give this file full permissions. In most cases this is &ldquo;777&rdquo; but it may 
+		   vary depending on where you are hosted. If 777 does not work, try 755.
+	    </p>
+		
+		<hr>
+		<!-- END #permissions -->
+	
+	
+	
+		
+		<!-- START #translation -->
+		<h3 id="translation" class="docs-sections"><strong>N) Translation</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>The theme doesn&rsquo;t contain the .pot, .po, or .mo files, but all the text that needs to be translated is properly
+		   wrapped in the following translation functions: <strong>__</strong>, <strong>_e</strong>, <strong>_x</strong>, 
+		   and <strong>_n</strong>, so you can easily translate the theme using a 
+		   tool like <a href="http://www.poedit.net/" title="download poedit">poEdit</a>.
+		</p>
+		
+		<p>Here&rsquo;s a link to a post that explains how to translate your WordPress theme: 
+		   <a href="http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/">http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/</a>.
+		   Follow its instructions, and you should have the translation files for your theme ready in no time. 
+		</p>
+		<hr>
+		<!-- END #translation -->
+		
+		
+		
+		
+		<!-- START #credits -->
+		<h3 id="credits" class="docs-sections"><strong>O) Sources and Credits</strong> - <a class="top" href="#toc">top</a></h3>
+		
+		<p>The following files are used as listed:
+		
+		<ul>
+			
+			<li>slides.min.jquery.js 
+				from <a href="http://slidesjs.com/">http://slidesjs.com/</a>
+			</li>
+			
+			<li>wordpress-popular-posts.zip from <a href="http://wordpress.org/extend/plugins/wordpress-popular-posts/">http://wordpress.org/extend/plugins/wordpress-popular-posts/</a>
+			</li>
+			
+			<li>simpleflickrphotos.zip from 
+				<a href="http://wordpress.org/extend/plugins/simple-flickr-plugin/">http://wordpress.org/extend/plugins/simple-flickr-plugin/</a>
+			</li>
+			
+			<li>wickett-twitter-widget from 
+				<a href="http://wordpress.org/extend/plugins/wickett-twitter-widget/">http://wordpress.org/extend/plugins/wickett-twitter-widget/</a>
+			</li>
+			
+			<li>superfish.js from <a href="http://users.tpg.com.au/j_birch/plugins/superfish/">http://users.tpg.com.au/j_birch/plugins/superfish/</a>
+			</li>
+			
+			<li>jquery.quicksand.js from <a href="http://razorjack.net/quicksand/">http://razorjack.net/quicksand/</a>
+			</li>
+			
+			<li>jquery.hoverintent.min.js from <a href="http://cherne.net/brian/resources/jquery.hoverIntent.html">http://cherne.net/brian/resources/jquery.hoverIntent.html</a></li>
+			
+			<li>
+				jquery.gmap.min.js from <a href="http://www.smashinglabs.pl/gmap">http://www.smashinglabs.pl/gmap</a>
+			</li>
+			
+			<li>
+				jquery.easing.1.3.js from <a href="http://gsgd.co.uk/sandbox/jquery/easing/">http://gsgd.co.uk/sandbox/jquery/easing/</a>
+			</li>
+			
+			<li>
+				jquery.scrollTo-1.4.2-min.js from <a href="http://flesler.blogspot.com/2007/10/jqueryscrollto.html">http://flesler.blogspot.com/2007/10/jqueryscrollto.html</a>
+			</li>
+			
+			<li>
+				jquery.lavalamp-1.3.5.min.js from <a href="http://nixboxdesigns.com/projects/jquery-lavalamp/">http://nixboxdesigns.com/projects/jquery-lavalamp/</a>
+			</li>
+			
+			<li>The &ldquo;GRID&rdquo; section of the style.css file in the /wp-content/themes/yin_and_yang/ folder
+				from <a href="http://960.gs/">http://960.gs/</a>
+			</li>
+		</ul>
+		
+		<hr>
+		<!-- END #credits -->
+
+
+		
+		<p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I&rsquo;d be glad to help you if you have any questions relating to this theme. No guarantees, but I&rsquo;ll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the &ldquo;Item Discussion&rdquo; section.</p> 
+		
+		<p class="append-bottom alt large"><strong>OnionEye</strong></p>
+		<p><a class="top" href="#toc">Go To Table of Contents</a></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

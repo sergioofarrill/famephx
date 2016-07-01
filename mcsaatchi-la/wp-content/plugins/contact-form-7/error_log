@@ -1,0 +1,4 @@
+[16-Oct-2015 11:01:37 America/Denver] PHP Fatal error:  Call to undefined function plugin_basename() in /home5/mcsaatch/public_html/wp-content/plugins/contact-form-7/wp-contact-form-7.php on line 19
+[16-Oct-2015 11:01:38 America/Denver] PHP Notice:  Use of undefined constant WPCF7_PLUGIN_DIR - assumed 'WPCF7_PLUGIN_DIR' in /home5/mcsaatch/public_html/wp-content/plugins/contact-form-7/settings.php on line 3
+[16-Oct-2015 11:01:38 America/Denver] PHP Warning:  require_once(WPCF7_PLUGIN_DIR/includes/functions.php): failed to open stream: No such file or directory in /home5/mcsaatch/public_html/wp-content/plugins/contact-form-7/settings.php on line 3
+[16-Oct-2015 11:01:38 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'WPCF7_PLUGIN_DIR/includes/functions.php' (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/mcsaatch/public_html/wp-content/plugins/contact-form-7/settings.php on line 3

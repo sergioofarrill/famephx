@@ -1,0 +1,11 @@
+[26-Jul-2014 19:46:10 UTC] PHP Warning:  fopen(./cache/timthumb_int_02bb681a23ef76af813d90d930090f42.timthumb.txt): failed to open stream: No such file or directory in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/timthumb.php on line 967
+[16-Aug-2014 15:07:36 UTC] PHP Warning:  fopen(./cache/timthumb_int_02bb681a23ef76af813d90d930090f42.timthumb.txt): failed to open stream: No such file or directory in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/timthumb.php on line 967
+[26-Aug-2014 18:19:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[26-Aug-2014 18:19:10 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[26-Aug-2014 18:19:13 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[26-Aug-2014 18:19:14 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[08-Nov-2014 17:22:51 UTC] PHP Warning:  fopen(./cache/timthumb_int_02bb681a23ef76af813d90d930090f42.timthumb.txt): failed to open stream: No such file or directory in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/timthumb.php on line 967
+[02-Mar-2015 01:34:51 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[01-Oct-2015 05:55:49 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[17-Oct-2015 04:46:03 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2
+[31-Oct-2015 20:01:18 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home5/mcsaatch/public_html/wp-content/themes/yin-yang-2/index.php on line 2

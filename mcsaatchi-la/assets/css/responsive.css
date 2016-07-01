@@ -1,0 +1,85 @@
+/* Responsive CSS Styles Table of Contents */
+
+@media only screen and (min-width: 1170px){}
+@media only screen and (min-width: 1000px) and (max-width: 1169px){
+
+.container {
+	width: 1000px;
+	margin: auto auto auto auto;
+}
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 999px){
+
+.container {
+	width: 767px;
+	margin: auto auto auto auto;
+}
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+
+.container {
+	width: 479px;
+	margin: auto auto auto auto;
+}
+
+h1 {
+	font-size: 35px;
+}
+
+h2 { 
+	font-size: 20px;
+}
+
+.logo {
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	text-align: center;
+	background: url(../images/logo.jpg) no-repeat center 20px;
+}
+
+navigation  {
+line-height: 20px;
+vertical-align: middle;
+margin: 0px 0px;
+text-decoration: none;
+font-size: 1em;
+padding: 0 10px;
+text-align: center;
+background-color: black;
+}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 479px){
+
+h1 {
+	font-size: 35px;
+}
+
+h2 { 
+	font-size: 20px;
+}
+
+.container {
+	width: 319px;
+	margin: auto auto auto auto;
+}
+
+.logo {
+	margin: 10px 0px 0px 0px;
+	width: 100%;
+	text-align: center;
+	background: url(../images/logo.jpg) no-repeat center 20px;
+}
