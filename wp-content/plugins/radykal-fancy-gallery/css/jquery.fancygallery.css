@@ -1,0 +1,607 @@
+/*
+  Resets
+*/
+
+.fg-panel a, .fg-panel img, .fg-panel ul, .fg-panel li, .fg-panel span, .fg-panel div { 
+    text-decoration: none;
+	list-style-type: none !important;
+	list-style: none !important;
+	background: none;
+	outline: none; 
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	vertical-align: baseline;
+	font-size: 100%;
+	max-width: 100%;
+}
+
+.fg-panel > div > a {
+	display: none;
+}
+
+/* Styles for the inline gallery */
+
+.fg-panel div.fg-inline-gallery {
+	margin-bottom: 40px;
+	display: none;
+}
+
+div.fg-inline-gallery > p.fg-inline-gallery-title {
+	color: #333333;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 15px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+div.fg-inline-gallery > div.fg-inline-gallery-media {
+	text-align: center;
+}
+
+div.fg-inline-gallery > p.fg-inline-gallery-description {
+	font-size: 14px;
+	color: #333333;
+	margin: 10px 0 0;
+} 
+
+div.fg-inline-gallery-media > img, div.fg-inline-gallery-media > iframe {
+	 max-height: 100%;
+	 border: 1px solid;
+	 padding: 5px;
+	 display: none;
+ }
+
+
+/*
+  Album selection with dropdown
+*/
+
+/* White Theme */
+
+div.fg-current-album-white, .fg-dropdown-list-white li {
+	color: #484848;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+div.fg-dropdown .fg-current-album-white {
+	background: #f4f4f4 url(../images/fancygallery/arrows_black.png);
+	background: url(../images/fancygallery/arrows_black.png), -moz-linear-gradient(top,  #f4f4f4 0%, #eaeaea 100%);
+	background: url(../images/fancygallery/arrows_black.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f4f4f4), color-stop(100%,#eaeaea));
+	background: url(../images/fancygallery/arrows_black.png), -webkit-linear-gradient(top,  #f4f4f4 0%,#eaeaea 100%);
+	background: url(../images/fancygallery/arrows_black.png), -o-linear-gradient(top,  #f4f4f4 0%,#eaeaea 100%);
+	background: url(../images/fancygallery/arrows_black.png), -ms-linear-gradient(top,  #f4f4f4 0%,#eaeaea 100%);
+	background: url(../images/fancygallery/arrows_black.png), linear-gradient(to bottom,  #f4f4f4 0%,#eaeaea 100%);
+	border: 1px solid #CCCCCC;
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+    box-shadow: inset 0px 1px 0px 0px #ffffff, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+}
+
+div.fg-dropdown .fg-dropdown-list-white {
+	background: #eaeaea;
+	border-bottom: 1px solid #cccccc;
+}
+
+ul.fg-dropdown-list-white li {
+	border: 1px solid #cccccc;
+	border-top: 1px solid #fff;
+}
+
+ul.fg-dropdown-list-white li:hover {
+	background: #f9f9f9;
+}
+
+/* Black Theme */
+
+div.fg-current-album-black, .fg-dropdown-list-black li {
+	color: #ffffff;
+	text-shadow: 0px 1px 0px #000;
+}
+
+div.fg-dropdown .fg-current-album-black {
+	background: #45484d url(../images/fancygallery/arrows_white.png);
+	background: url(../images/fancygallery/arrows_white.png), -moz-linear-gradient(top,  #45484d 0%, #1c1c1c 100%);
+	background: url(../images/fancygallery/arrows_white.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#45484d), color-stop(100%,#1c1c1c));
+	background: url(../images/fancygallery/arrows_white.png), -webkit-linear-gradient(top,  #45484d 0%,#1c1c1c 100%);
+	background: url(../images/fancygallery/arrows_white.png), -o-linear-gradient(top,  #45484d 0%,#1c1c1c 100%);
+	background: url(../images/fancygallery/arrows_white.png), -ms-linear-gradient(top,  #45484d 0%,#1c1c1c 100%);
+	background: url(../images/fancygallery/arrows_white.png), linear-gradient(to bottom,  #45484d 0%,#1c1c1c 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px #5c5c5c, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+    box-shadow: inset 0px 1px 0px 0px #5c5c5c, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+	border: 1px solid #000000;
+}
+
+div.fg-dropdown .fg-dropdown-list-black {
+	background: #1c1c1c;
+	border-bottom: 1px solid #000000;
+}
+
+ul.fg-dropdown-list-black li {
+	border: 1px solid #000000;
+	border-top: 1px solid #353535;
+}
+
+ul.fg-dropdown-list-black li:hover {
+	background: #222222;
+}
+
+/* Blue Theme */
+
+div.fg-current-album-blue, .fg-dropdown-list-blue li {
+	color: #2e5971;
+	text-shadow: 0px 1px 0px #55afdf;
+}
+
+div.fg-dropdown .fg-current-album-blue {	
+	background: #63b6db url(../images/fancygallery/arrows_black.png);
+	background: url(../images/fancygallery/arrows_black.png), -moz-linear-gradient(top,  #63b6db 0%, #309dcf 100%);
+	background: url(../images/fancygallery/arrows_black.png), -webkit-gradient(linear, left top, left bottom, color-stop(0%,#63b6db), color-stop(100%,#309dcf));
+	background: url(../images/fancygallery/arrows_black.png), -webkit-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: url(../images/fancygallery/arrows_black.png), -o-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: url(../images/fancygallery/arrows_black.png), -ms-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: url(../images/fancygallery/arrows_black.png), linear-gradient(to bottom,  #63b6db 0%,#309dcf 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px #71cef9, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+    box-shadow: inset 0px 1px 0px 0px #71cef9, 0px 1px 2px 0px rgba(0, 0, 0, 0.1); 
+	border: 1px solid #248bba;
+}
+
+div.fg-dropdown .fg-dropdown-list-blue {
+	background: #309dcf;
+	border-bottom: 1px solid #248bba;
+}
+
+.fg-dropdown-list-blue li {
+	border: 1px solid #248bba;
+	border-top: 1px solid #2aa2d9;
+}
+
+.fg-dropdown-list-blue li:hover {
+	background: #1892ca;
+}
+
+/* Color Template - Create your own color theme with this CSS template */
+/*div.fg-dropdown .fg-current-album-custom {
+	background: #ecf9ff url(../images/fancygallery/arrows_black.png) 95% center no-repeat;
+	border: 1px solid #a4dfff;
+	color: #67B7E1;
+}
+
+div.fg-dropdown .fg-dropdown-list-custom {
+	background: #dff5ff;
+	border-bottom: 1px solid #a4dfff;
+}
+
+ul.fg-dropdown-list-custom li {
+	border: 1px solid #a4dfff;
+	color: #67B7E1;
+}
+
+ul.fg-dropdown-list-custom li:hover {
+	background: #f3fbff;
+}*/
+
+/* Standard stlyes for the dropdown */
+div.fg-dropdown {
+	width: 200px; /* Change here the width of the dropdown */
+	margin-bottom: 10px;
+	position: relative;
+	z-index: 9999;
+	float: left; /* Set here the floating, to have the dropdown at the right, just set the value to right */
+}
+
+div.fg-dropdown .fg-current-album {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 7px 7px;
+	cursor: pointer;
+	background-position: 95% center;
+	background-repeat: no-repeat;
+}
+
+div.fg-dropdown .fg-dropdown-list {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	max-height: 115px; /* Change here the height of the dropdown list */
+	overflow: auto;
+	z-index: 10;
+}
+
+.fg-dropdown-list li {
+	padding: 5px 5px;
+	font-size: 11px;
+	cursor: pointer;
+}
+
+.fg-dropdown-list li:last-child {
+	border-bottom: 0;
+}
+
+/* The album description */
+
+.fg-panel > p.fg-album-description {
+	display: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+
+
+/*
+  Album selection with menu
+*/
+ul.fg-albumSelecter {
+	border-top: 1px solid #EAEAEA; /* Color of the upper line */
+	line-height: 35px;
+	height: 35px;
+}
+
+ul.fg-albumSelecter li {
+	list-style: none !important;
+	float: left;
+	line-height: 35px;
+	margin-right: 20px;
+}
+
+ul.fg-albumSelecter li a {
+	display: block;
+	color: #b8b8b8;
+	font-size: 12px;
+	font-family: Helvetica;
+}
+
+ul.fg-albumSelecter li.selected {
+	line-height: 29px !important;
+}
+
+ul.fg-albumSelecter li.selected a {
+	border-top: 3px solid #67B7E1;  /* Color for the upper line of the selected menu item */
+	color: #67B7E1;
+}
+
+
+/*
+ * Album selection with thumbnails
+*/
+ul.fg-thumbail-selection {
+	border: none;
+}
+
+li.fg-album-thumbnail {
+	border: 1px solid #DDDDDD; /* Border Color */
+	float: left;
+	line-height: 0 !important;
+	margin-bottom: 40px;
+	margin-right: 40px !important;
+}
+
+li.fg-album-thumbnail:hover {
+	border: 1px solid #67B7E1;
+	-webkit-box-shadow:  0px 2px 2px 0px rgba(103, 183, 225, 0.5);
+    box-shadow:  0px 2px 2px 0px rgba(103, 183, 225, 0.5);
+}
+
+li.fg-album-thumbnail a {
+	overflow: hidden;
+	display: block;
+}
+
+li.fg-album-thumbnail img {
+	width: 100%;
+	height: 100%;
+}
+
+li.fg-album-thumbnail > div {
+	display: inline-block;
+	width: 100%;
+}
+
+li.fg-album-thumbnail .fg-album-thumbnail-title {
+	height: 40px;
+	line-height: 18px;
+	margin: 10px 20px;
+	font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+li.fg-album-thumbnail .fg-album-thumbnail-length {
+	color: #a9a9a9;
+	border-top: 1px solid #e9e9e9;
+	margin: 0px 20px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 11px;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+/*
+ * Album selection with thumbnails (polaroids)
+*/
+
+li.fg-album-polaroid {
+	background: url(../images/fancygallery/polaroids.png) no-repeat;
+	width: 183px;
+	height: 183px;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 30px;
+}
+
+li.fg-album-polaroid > a {
+	position: relative;
+	display: block;
+	margin: 15px 0 0 16px !important;
+}
+
+li.fg-album-polaroid > a > img {
+	width: 151px;
+	height: 151px;
+}
+
+li.fg-album-polaroid > a > span {
+	min-width: 20px;
+	height: 20px;
+	line-height: 20px;
+	padding: 5px;
+	text-align: center;
+	background: red;
+	color: #fff;
+	top: -15px;
+	right: -2px;
+	font-size: 11px;
+	position: absolute;
+	-webkit-border-radius: 100%;
+	border-radius: 100%;
+	background: #63b6db;
+	background: -moz-linear-gradient(top,  #63b6db 0%, #309dcf 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#63b6db), color-stop(100%,#309dcf));
+	background: -webkit-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: -o-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: -ms-linear-gradient(top,  #63b6db 0%,#309dcf 100%);
+	background: linear-gradient(to bottom,  #63b6db 0%,#309dcf 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#63b6db', endColorstr='#309dcf',GradientType=0 );
+	text-shadow: 0px 1px 0px #434343;
+}
+
+li.fg-album-polaroid > p {
+	text-align: center;
+	font-size: 13px;
+	margin-top: 15px;
+	color: #595959;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+
+/*
+ * Horizontal line between thumbnails and menu/dropdown
+*/
+hr.fg-line {
+	border: 0px;
+ 	border-top: solid 1px #EAEAEA; /* the top color of the line */
+	border-bottom: solid 1px #fff;  /* the bottom color of the line */
+	display: block;
+	clear: both !important;
+	margin: 0 0 25px 0px !important;
+}
+
+/*
+ * Holder for all thumbnails of an album
+*/
+ul.fg-thumbHolder	{
+	bottom: 0;
+    left: 720px;
+    position: absolute;
+    top: 65px;
+
+    width: 234px;
+}
+
+li.fg-listItem {
+	position: relative !important;
+	float: left;
+	list-style: none !important;
+	list-style-type: none !important;
+	background: none !important;
+	padding: 0 !important;
+}
+
+a.fg-image {
+	position: absolute;
+	z-index: 2;
+	overflow: hidden;
+	border: 1px solid;
+	border-bottom: none;
+}
+
+img.fg-thumb	{
+	margin: auto !important;
+	display: none;
+	height: 100%;
+}
+
+img.fg-second-thumb {
+	position: absolute;
+	display: none;
+}
+
+/*
+ * The title under every thumbnail
+*/
+li.fg-listItem  span.fg-title	{
+	max-width: 100%;
+	font-size: 12px; /* the size of the title */
+	height: 0;
+	position: absolute;
+	z-index: 100;
+	border: 1px solid;
+	border-top: none;
+}
+
+img.fg-shadow	{
+	position: absolute;
+	z-index: 0;
+}
+
+img.fg-hover-image {
+	position: absolute;
+	display: none;
+	z-index: 3;
+}
+
+.fg-error {
+	padding: 5px !important;
+	background: #ffd2d3;
+	border: 1px solid #df8f90;
+	color: #000;	
+}
+
+/*
+ * Navigation for every album
+*/
+
+/*
+ * Back to albums overview - only when album selection is set to thumbnails
+*/
+a.fg-back-to-albums {
+	margin-right: 25px !important;
+}
+
+div.fg-navigation a, .fg-navigation span {
+	display: inline-block !important;
+        
+}
+
+/*
+ * Dots navigation
+*/
+
+a.fg-navigation-dot {
+	margin-right: 10px;
+	width: 12px;
+	height: 12px;
+	-webkit-border-radius: 15px;
+	border-radius: 15px;
+}
+
+/*
+ * Pagination navigation
+*/
+
+a.fg-pagination {
+	font-family: 'Titillium Web', sans-serif;;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	text-align: center;
+	width: 23px;
+	height: 23px;
+	line-height: 23px;
+	z-index: 1000;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+/*
+ * White and Black color scheme for the navigation
+*/
+a.fg-nav-white, a.fg-nav-white:visited {
+	color: #6E6E6E;
+	border: 1px solid #cacaca;
+	background: #fbfbfb;
+	background: -moz-linear-gradient(top,  #fbfbfb 0%, #ebebeb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbfbfb), color-stop(100%,#ebebeb));
+	background: -webkit-linear-gradient(top,  #fbfbfb 0%,#ebebeb 100%);
+	background: -o-linear-gradient(top,  #fbfbfb 0%,#ebebeb 100%);
+	background: -ms-linear-gradient(top,  #fbfbfb 0%,#ebebeb 100%);
+	background: linear-gradient(to bottom,  #fbfbfb 0%,#ebebeb 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
+	box-shadow: inset 0px 1px 0px 0px #ffffff;
+	text-shadow: 0px 1px 0px #ffffff;
+}
+
+a.fg-nav-white:hover {
+	background: #fff;
+}
+
+a.fg-nav-white-selected {
+	color: #ffffff !important;
+	border: none;
+	background: #666666 !important;
+	-webkit-box-shadow:  inset 0px 1px 2px 0px #505050;
+	box-shadow:  inset 0px 1px 2px 0px #505050;
+	text-shadow: 0px 1px 0px #585858;
+}
+
+
+a.fg-nav-black, a.fg-nav-black:visited {
+	color: #fff;
+	border: 1px solid #131313;
+	background: #4c4c4c;
+	background: -moz-linear-gradient(top,  #4c4c4c 0%, #191919 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4c4c), color-stop(100%,#191919));
+	background: -webkit-linear-gradient(top,  #4c4c4c 0%,#191919 100%);
+	background: -o-linear-gradient(top,  #4c4c4c 0%,#191919 100%);
+	background: -ms-linear-gradient(top,  #4c4c4c 0%,#191919 100%);
+	background: linear-gradient(to bottom,  #4c4c4c 0%,#191919 100%);
+	-webkit-box-shadow: inset 0px 1px 0px 0px #434343;
+	box-shadow: inset 0px 1px 0px 0px #434343;
+}
+
+a.fg-nav-black:hover {
+	background: #131313;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+a.fg-nav-black-selected {
+	background: #000 !important;
+	border: 1px solid #323538;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* This is an example class for a custom navigation color scheme */
+a.fg-nav-custom, a.fg-nav-custom:visited {
+	
+}
+
+a.fg-nav-custom:hover {
+	
+}
+
+a.fg-nav-custom-selected {
+	
+}
+
+.fancybox-description-title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+}
+
+
+/* 
+  Helper 
+*/
+.radykal-clearfix:after {  
+    content: ".";  
+    display: block;
+    height: 0;
+    clear: both;
+    display:none;
+}
+ 
+* + html .radykal-clearfix { 
+    display: inline-block;
+}
+ 
+* html .radykal-clearfix { 
+	height: 1%;
+}
+
+.none {
+	display: none;
+}

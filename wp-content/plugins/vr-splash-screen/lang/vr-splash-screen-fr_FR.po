@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: VR Splash Screen\n"
+"POT-Creation-Date: 2012-10-26 09:59+0100\n"
+"PO-Revision-Date: 2012-10-26 09:59+0100\n"
+"Last-Translator: Vincent Rousseau <contact@vincent-rousseau.net>\n"
+"Language-Team: VR.Net <contact@vincent-rousseau.net>\n"
+"Language: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../html/vrss_config.php:4
+msgid "Configuration du Splash Screen"
+msgstr "Configuration du Splash Screen"
+
+#: ../html/vrss_config.php:8
+msgid "Options enregistrées"
+msgstr "Options enregistrées"
+
+#: ../html/vrss_config.php:12
+msgid "Configurez ici votre Splash Screen"
+msgstr "Configurez ici votre Splash Screen"
+
+#: ../html/vrss_config.php:18
+msgid "Activer le Splash Screen"
+msgstr "Activer le Splash Screen"
+
+#: ../html/vrss_config.php:26
+msgid "Durée du cookie (en seconde)"
+msgstr "Durée du cookie (en seconde)"
+
+#: ../html/vrss_config.php:35
+msgid "Couleur de fond"
+msgstr "Couleur de fond"
+
+#: ../html/vrss_config.php:43
+msgid "Image du Splash Screen"
+msgstr "Image du Splash Screen"
+
+#: ../html/vrss_config.php:48
+msgid "Upload Image"
+msgstr "Upload Image"
+
+#: ../html/vrss_config.php:49
+msgid "Entrez l'URL ou uploadez une nouvelle image"
+msgstr "Entrez l'URL ou uploadez une nouvelle image"
+
+#: ../html/vrss_config.php:59
+msgid "Background position (CSS)"
+msgstr "Background position (CSS)"
+
+#: ../html/vrss_config.php:67
+msgid "Ou étirer l'image à 100%"
+msgstr "Ou étirer l'image à 100%"
+
+#: ../html/vrss_config.php:75
+msgid "URL de redirection"
+msgstr "URL de redirection"
+
+#: ../html/vrss_config.php:83
+msgid "Texte du bouton de sortie"
+msgstr "Texte du bouton de sortie"
+
+#: ../html/vrss_config.php:91
+msgid "CSS supplémentaire"
+msgstr "CSS supplémentaire"
+
+#: ../html/vrss_config.php:96
+msgid ""
+"La balise &lt;body&gt; de la Splash Screen a la classe CSS suivante : "
+"<i>splash_screen</i><br/>Vous pouvez donc mettre en forme facilement grâce "
+"aux CSS."
+msgstr ""
+"La balise &lt;body&gt; de la Splash Screen a la classe CSS suivante : "
+"<i>splash_screen</i><br/>Vous pouvez donc mettre en forme facilement grâce "
+"aux CSS."
+
+#: ../html/vrss_config.php:102
+msgid "Enregistrer les modifications"
+msgstr "Enregistrer les modifications"

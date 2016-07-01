@@ -1,0 +1,14 @@
+#map_canvas {
+ width:100%;
+ display: inline-block;
+ position: relative;
+}
+#map_canvas:after {
+    padding-top: 65%; 
+    display: block;
+    content: '';
+}
+#map_canvas div[id*='map_canvas_']  {
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0; 
+}

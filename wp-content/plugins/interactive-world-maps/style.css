@@ -1,0 +1,203 @@
+/*  Interactive World Maps Plugin Styles 
+	All this styles apply only to the Admin Pages of the plugin.
+	They do not affect the Map Visuals
+*/
+
+#default-settings-table,#add-table {
+	background-color:#f5f5f5;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid #DFDFDF;
+	
+}
+#default-settings-table-add {
+	background-color:#f5f5f5;
+	padding:10px;
+	margin-top:20px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid #DFDFDF;
+	
+}
+#default-settings-table-add input {
+	width:90px;
+}
+
+#default-settings-table-add th {
+	text-align:left;
+	
+}
+#advanced-table {
+	display:none;
+}
+
+#add-table-advanced {
+	background-color:#f5f5f5;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid #DFDFDF;
+	}
+	
+#add-table-advanced textarea {
+	width:100%;
+	height:200px;
+}
+
+#default-settings-table input[type=text],
+#add-table input[type=text] {	
+	width: 100px;
+}
+
+#default-settings-table th,#add-table th{
+	font-weight:bolder;
+	text-align:left;	
+	
+}
+
+.iwm-small-help {
+	color:#666;
+	font-style:italic;
+	font-size:11px;	
+}
+
+#add-table textarea {
+	width:100%;	
+}
+
+#visualization-wrap {
+	background-color:#f9f9f9;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border: 1px solid #DFDFDF;
+}
+.data-content-table {
+	width:100%;
+	background-color: #FFF;	
+	margin-top:10px;
+}
+
+.data-content-table tr:nth-child(even) {
+	background-color: #EEE;
+}
+ 
+.data-content-table tr:nth-child(odd) {
+	background-color: #FFF;
+}
+
+.data-content-table td {
+	padding:2px 10px;
+}
+.data-content-table th {
+	text-align:left;
+	padding:10px;
+	text-transform: uppercase;
+	background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+}
+
+.deleteplace {
+	cursor:pointer;
+	}
+.editing-map-entry tr {
+	border: 1px solid #F30;	
+	background-color:#0099CC;
+	padding:20px;
+}
+
+.activeb {
+	background-color: #f5f5f5;
+	padding: 10px 10px 1px 10px;
+	color:#000000;
+	cursor:pointer;
+	margin-left:10px;
+	border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #f5f5f5;
+	border-left-color: #CCC;
+}
+.inactiveb {
+	background-color: #f5f5f5;
+	padding: 10px 10px 1px 10px;
+	border: 1px solid #CCC;	
+	color:#222222;
+	cursor:pointer;
+	margin-left:10px;
+	border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px; /* Firefox 3.6 and earlier */
+}
+
+#iso-code-msg {
+	padding:10px;
+	margin-bottom:10px;
+	color:#333333;
+	font-style:italic;
+	display:block;
+	
+}
+.iwmsmall {
+	font-size:x-small;
+	color:#666666;
+	
+}
+.colorsample {
+	width:20px;
+	height:20px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	float:right;
+}
+
+#iwm-message-intro {
+	margin-top:15px;
+	padding:15px;
+	background-color:#f5f5f5;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	border: 1px solid #DFDFDF;
+	
+}
+
+#iwm-message-intro #shc{
+	font-weight:bold;
+	background-color:#FFFFFF;
+	padding:5px;
+	}
+	
+#visit {
+	padding:10px;
+}
+#custom-action {
+	display:none;
+	padding-bottom:20px;
+	background-color:#f5f5f5;
+	padding:10px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid #DFDFDF;
+}
+
+#latlondiv {
+	background-color:#f5f5f5;
+	padding:5px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	border: 1px solid #DFDFDF;
+	margin:10px 0px;
+}
+
+circle {
+	cursor:pointer;
+}

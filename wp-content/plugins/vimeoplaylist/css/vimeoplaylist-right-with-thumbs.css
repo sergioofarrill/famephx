@@ -1,0 +1,102 @@
+/* === Use this if you want to set the playlist to the right === */
+
+
+#vivideo .vimvideoright {
+   float: left;
+   margin-bottom:-5px;
+   
+}
+
+#vimeo_holder .vimplayerright {
+	width: 240px;
+	float: left;
+	margin: 0;
+	padding: 0;
+	border-left: 0px solid transparent;
+         
+}
+
+/* === Custom scrollbars IE === */
+#vimeo_holder .vimplayerright {
+	scrollbar-arrow-color: #333333;
+	scrollbar-base-color: #333333;
+	scrollbar-dark-shadow-color: #333333;
+	scrollbar-track-color: #333333;
+	scrollbar-face-color: #fff;
+	scrollbar-shadow-color: #333333;
+	scrollbar-highlight-color: #333333;
+	scrollbar-3d-light-color: #333333;
+}
+/* === END === */
+
+/* === Custom scrollbars Webkit === */
+#vimeo_holder .videovimright::-webkit-scrollbar {
+width: 7px;
+height: 7px;
+}
+
+#vimeo_holder .videovimright::-webkit-scrollbar-track-piece  {
+background-color: #333333;
+}
+
+#vimeo_holder .videovimright::-webkit-scrollbar-thumb:vertical {
+height: 30px;
+background-color: #fff;
+}
+
+#vimeo_holder .videovimright::-webkit-scrollbar-button:vertical:increment {
+    background-image: url('downwh.png');
+    background-repeat: no-repeat, repeat-y;
+    background-position: 0px 0px, 0 0;
+}
+
+#vimeo_holder .videovimright::-webkit-scrollbar-button:vertical:decrement {
+    background-image: url('upwh.png');
+    background-repeat: no-repeat, repeat-y;
+    background-position: 0px 0px, 0 0;
+}
+/* === END === */
+
+#vimeo_holder .vimplayer ul.videovimright {
+width: 240px;
+top: 34px;
+background: #f2f2f2; /* Old browsers */
+background: -moz-linear-gradient(top,  #f2f2f2 16%, #ffffff 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(16%,#f2f2f2), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f2f2f2 16%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f2f2f2 16%,#ffffff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f2f2f2 16%,#ffffff 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f2f2f2 16%,#ffffff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#vimeo_holder .timeright {
+    display:none;
+}
+
+#vimeo_holder .vimplayer ul.videovimright li img {
+    display: inline;
+}
+
+#vimeo_holder .vimplayer .vimtitle_right {
+    width: 140px;
+    margin: 0 0 -14px 104px;
+}
+
+#vimeo_holder .vimplayer ul.videovimright li a {
+    width: 140px;
+    padding: 0 4px 0 104px;
+}
+
+#vimeo_holder .vimplayer ul.videovimright li a.currentvideo {
+    width: 140px;
+}
+
+.description {
+display:none;
+}
+
+.text{
+display:none;
+}
+/* vimeo css END  */
